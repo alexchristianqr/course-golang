@@ -1,4 +1,5 @@
 /* Documentación: https://go.dev/doc/effective_go#defer */
+
 package main
 
 import "fmt"

@@ -1,4 +1,7 @@
-/* Documentación: */
+/* Documentación: https://go.dev/doc/effective_go#arrays */
+/* Documentación: https://go.dev/doc/effective_go#slices */
+/* Documentación: https://go.dev/doc/effective_go#append */
+
 package main
 
 import "fmt"
@@ -22,8 +25,15 @@ func main() {
 	dataSlice := []int{0, 1, 2, 3, 4, 5}
 
 	// Imprimir en consola
+	fmt.Println("Total slice:", dataSlice)
 	fmt.Println("Posición [0]:", dataSlice[0])
 	fmt.Println("Posición [:3]:", dataSlice[:3])
 	fmt.Println("Posición [2:4]:", dataSlice[2:4])
 
+	fmt.Println("-- break --")
+
+	// Ejemplo Append
+	newSlice := []int{6, 7, 8}
+	dataSlice = append(dataSlice, newSlice...)
+	fmt.Println("Total new slice:", dataSlice)
 }
