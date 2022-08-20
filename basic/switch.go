@@ -1,4 +1,5 @@
 /* Documentación: https://go.dev/doc/effective_go#switch */
+
 package main
 
 import "fmt"
