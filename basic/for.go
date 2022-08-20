@@ -12,7 +12,7 @@ func main() {
 		fmt.Println("El indice es:", index)
 	}
 
-	fmt.Printf("-- break -- \n")
+	fmt.Println("-- break --")
 
 	// Ciclo for while
 	index := 1
@@ -21,7 +21,7 @@ func main() {
 		index++
 	}
 
-	fmt.Printf("-- break -- \n")
+	fmt.Println("-- break --")
 
 	// Ciclo for forever
 	index2 := 1
@@ -40,7 +40,7 @@ func main() {
 
 	}
 
-	fmt.Printf("-- break -- \n")
+	fmt.Println("-- break --")
 
 	// Ejemplo de ciclo for con indice decreciente
 	for index := 10; index > 0; index-- {
