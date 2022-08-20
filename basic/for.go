@@ -1,3 +1,5 @@
+/* Documentación: https://go.dev/doc/effective_go#for */
+
 package main
 
 import "fmt"

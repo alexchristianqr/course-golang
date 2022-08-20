@@ -1,3 +1,7 @@
+/* Documentación: https://pkg.go.dev/fmt#pkg-constants */
+/* Documentación: https://pkg.go.dev/fmt#pkg-variables */
+/* Documentación: https://pkg.go.dev/fmt#pkg-types */
+
 package main
 
 import "fmt"
@@ -6,8 +10,6 @@ func main() {
 	// Constantes
 	const pi float64 = 3.14
 	const pi2 = 3.1415
-
-	// Impresión en consola
 	fmt.Println("pi:", pi)
 	fmt.Println("pi2", pi2)
 

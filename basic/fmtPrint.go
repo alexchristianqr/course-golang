@@ -1,3 +1,5 @@
+/* Documentación: https://pkg.go.dev/fmt */
+
 package main
 
 import "fmt"
