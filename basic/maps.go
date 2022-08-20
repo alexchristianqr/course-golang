@@ -3,7 +3,6 @@ package main
 
 import (
 	"fmt"
-	"strings"
 )
 
 func main() {
@@ -13,8 +12,22 @@ func main() {
 	// Iterar usuarios
 	for index, user := range users {
 		fmt.Println(index, user)
-		isPalindromo(strings.ToLower(user))
+		// isPalindromo(strings.ToLower(user))
 	}
+
+	fmt.Println("-- break --")
+
+	// Crear diccionario
+	languages := make(map[string]string)
+	languages["java"] = "multiparadigma"
+	languages["php"] = "proposito general"
+	fmt.Println("El diccionario es:", languages)
+
+	fmt.Println("-- break --")
+
+	// Encontrar un valor en el diccionario
+	v, k := languages["nodejs"]
+	fmt.Println("El resultado es:", v, k)
 
 }
 
