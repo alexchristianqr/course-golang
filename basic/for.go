@@ -27,10 +27,17 @@ func main() {
 	index2 := 1
 	for {
 		fmt.Println("El indice es:", index2)
-		index2++
+		index2++ // Incrementar
+
+		if index2 == 3 {
+			fmt.Println("Estás en el indice:", index2)
+			continue
+		}
+
 		if index2 > counter {
 			break
 		}
+
 	}
 
 	fmt.Printf("-- break -- \n")
