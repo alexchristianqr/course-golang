@@ -1,4 +1,4 @@
-/* Documentación:  */
+/* Documentación: */
 package main
 
 func main() {
