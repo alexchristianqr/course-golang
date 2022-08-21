@@ -6,6 +6,7 @@ import (
 	"fmt"
 )
 
+// Función principal
 func main() {
 	// Obtener el arreglo de nombre de usuarios
 	users := []string{"Alex", "Deysi", "Diana", "Monica", "Jenny", "David", "Ana"}

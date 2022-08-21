@@ -27,6 +27,7 @@ func (pc Pc) String() string {
 	return fmt.Sprintf("Tengo %d GB RAM y %d SSD", pc.ram, pc.disk)
 }
 
+// Función principal
 func main() {
 	// Ejemplo 01
 	a := 50

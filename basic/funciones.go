@@ -4,8 +4,9 @@ package main
 
 import "fmt"
 
+// Función principal
 func main() {
-	// Funciones
+	// Ejecutar funciones
 	normalFunction("Hola Alex")
 	tripleArguments("One", "Two", "Tree")
 	returnValue("One")

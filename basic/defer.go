@@ -4,6 +4,7 @@ package main
 
 import "fmt"
 
+// Función principal
 func main() {
 	// Ejemplo de defer
 	defer printHelloWorld()

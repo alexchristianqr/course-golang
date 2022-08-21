@@ -4,6 +4,7 @@ package main
 
 import "fmt"
 
+// Crear interface
 type figura interface {
 	area() float64
 }
@@ -34,7 +35,7 @@ func calcular(f figura) {
 	fmt.Println("El area es:", f.area())
 }
 
-// Crear función
+// Función principal
 func main() {
 	// Instanciar clases struct
 	myCuadrado := cuadrado{base: 2}

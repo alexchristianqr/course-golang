@@ -6,6 +6,7 @@ package main
 
 import "fmt"
 
+// Función principal
 func main() {
 	// Constantes
 	const pi float64 = 3.14

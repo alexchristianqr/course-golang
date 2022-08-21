@@ -6,6 +6,7 @@ package main
 
 import "fmt"
 
+// Función principal
 func main() {
 	// Ejemplo de Array
 	var dataArray [10]int // Por defecto todos los valores se inicializan con CERO

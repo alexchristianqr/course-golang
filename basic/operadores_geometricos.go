@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// Función principal
 func main() {
 	// Calcular el área de un cuadrado. Formula: base * base
 	const baseCuadrado = 10

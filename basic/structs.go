@@ -9,6 +9,7 @@ type student struct {
 	age  int
 }
 
+// Función principal
 func main() {
 	// Ejemplo 01
 	myStudent := student{name: "Alex Christian", age: 28}

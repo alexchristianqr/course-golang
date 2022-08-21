@@ -4,6 +4,7 @@ package main
 
 import "fmt"
 
+// Función principal
 func main() {
 	param01 := 1
 	param02 := 2

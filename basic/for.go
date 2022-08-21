@@ -4,6 +4,7 @@ package main
 
 import "fmt"
 
+// Función principal
 func main() {
 	const counter = 10
 
