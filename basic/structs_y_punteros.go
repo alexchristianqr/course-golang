@@ -11,14 +11,20 @@ type Pc struct {
 	brand string
 }
 
-// Crear puntero a memoria
+// Crear función puntero a memoria
 func (pc Pc) ping() {
 	fmt.Println(pc.ram, "Pong")
 }
 
-// Crear puntero a memoria
-func (pc *Pc) duplicateRAM() {
+// Crear función puntero a memoria
+func (pc *Pc) duplicateData() {
 	pc.ram = pc.ram * 2
+	pc.disk = pc.disk * 2
+}
+
+// Crear función autoejecutable
+func (pc Pc) String() string {
+	return fmt.Sprintf("Tengo %d GB RAM y %d SSD", pc.ram, pc.disk)
 }
 
 func main() {
@@ -36,6 +42,6 @@ func main() {
 	pc.ping()
 
 	fmt.Println(pc)
-	pc.duplicateRAM()
+	pc.duplicateData()
 	fmt.Println(pc)
 }
