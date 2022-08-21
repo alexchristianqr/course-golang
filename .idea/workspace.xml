@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="38eadb75-41bb-427c-892c-a0b5b2c94c3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/structs_y_punteros.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/structs_y_punteros.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +56,21 @@
       <recent name="D:\src\src-go-golang\course-golang\basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build structs_y_punteros.go">
+  <component name="RunManager" selected="Go Build.go build interfaces.go">
     <configuration name="go build arrays.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="course-golang" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/basic/arrays.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build interfaces.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="course-golang" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/basic/interfaces.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build structs.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -84,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build interfaces.go" />
         <item itemvalue="Go Build.go build structs_y_punteros.go" />
         <item itemvalue="Go Build.go build structs.go" />
         <item itemvalue="Go Build.go build arrays.go" />
